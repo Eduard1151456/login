@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Tabla con Formulario</title>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Registros</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Correo Electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Usuario 1</td>
+                    <td>usuario1@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Usuario 2</td>
+                    <td>usuario2@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="agregar-registro">Agregar Registro</button>
+        <div id="registro-form" class="hidden-form">
+            <h2>Agregar Nuevo Registro</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
