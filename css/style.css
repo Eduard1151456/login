@@ -161,3 +161,32 @@ thead {
 .hidden-form {
     display: none;
 }
+.developers-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.developer {
+    margin-top: 20px;
+}
+
+.developer img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.developer h3 {
+    margin-top: 10px;
+}
+
+.developer p {
+    margin: 5px 0;
+}
