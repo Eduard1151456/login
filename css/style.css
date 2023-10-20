@@ -52,3 +52,38 @@ button:hover {
     }
 }
 
+.register-container h1 {
+    color: #007bff;
+}
+
+.register-container form {
+    margin-top: 20px;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Media query para tamaños de pantalla de hasta 479px (Dispositivos móviles en orientación vertical) */
+@media (max-width: 479px) {
+    .register-container {
+        width: 80%;
+    }
+}
